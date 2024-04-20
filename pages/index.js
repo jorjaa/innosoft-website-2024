@@ -18,7 +18,7 @@ const Home = () => {
       <Head>
         <title>Innosoft KMUTT</title>
         <meta name="description" content="Innosoft KMUTT" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/img/innosoft-logo.png" />
       </Head>
 
       <Navbar />
