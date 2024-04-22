@@ -9,11 +9,11 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row pb-6">
+            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row pb-6">
               <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-                target="_blank"
-                rel="noopener"
+                // href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+                // target="_blank"
+                // rel="noopener"
                 className="flex items-center px-8 py-1 text-lg font-medium text-orange-600 border border-orange-600 rounded-3xl"
               >
                 <span className="mr-6">
@@ -27,7 +27,7 @@ const Hero = () => {
                 </span>
                 SOFTWARE DEVELOPING AND <br /> HIGH PERFORMANCE SERVICE
               </a>
-            </div> */}
+            </div>
 
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               LET’s BUILD
@@ -48,20 +48,20 @@ const Hero = () => {
               We’ve been working on our mission since 2016
             </p>
 
-            {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-                target="_blank"
-                rel="noopener"
+                // href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+                // target="_blank"
+                // rel="noopener"
                 className="px-5 py-2 text-lg font-light text-orange-600 border border-orange-600 rounded-3xl "
               >
                 New website is coming soon . . .
               </a>
 
               <a
-                href="https://github.com/web3templates/nextly-template/"
-                target="_blank"
-                rel="noopener"
+                // href="https://github.com/web3templates/nextly-template/"
+                // target="_blank"
+                // rel="noopener"
                 className="flex items-center space-x-2 text-orange-500 dark:text-orange-500"
               >
                 <span className="mr-2">
@@ -74,9 +74,9 @@ const Hero = () => {
                   />
                 </span>
 
-                <span> View on Github</span>
+                {/* <span> View on Github</span> */}
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
@@ -96,13 +96,13 @@ const Hero = () => {
 
       {/* <div className="py-5"></div> */}
 
-      {/*<Container>
+      {/* <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-start text-gray-300 dark:text-white">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-200 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Partners
             </h1>
-            {/* Partners <span className="text-indigo-600">2000+</span> customers
+            Partners <span className="text-indigo-600">2000+</span> customers
             worldwide 
           </div>
 
@@ -124,7 +124,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </Container>*/}
+      </Container> */}
     </>
   );
 };
