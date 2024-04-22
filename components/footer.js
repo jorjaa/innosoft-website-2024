@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
 
           <div className="col-span-2 flex items-start justify-end">
-            <div className="flex flex-wrap space-x-5 text-blue-500 dark:text-gray-500">
+            {/* <div className="flex flex-wrap space-x-5 text-blue-500 dark:text-gray-500">
               <a
                 href="https://facebook.com/web3templates"
                 target="_blank"
@@ -46,7 +46,7 @@ export default function Footer() {
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>
