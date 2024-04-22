@@ -1,12 +1,26 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Link from "next/link";
 
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
-          <Link
+          {/* Google Analytics Global Site Tag */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFZNGWM7VT"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-EFZNGWM7VT');
+              `,
+            }}
+          />
+          {/* End Google Analytics Global Site Tag */}
+          
+          <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap"
             rel="stylesheet"
           />
